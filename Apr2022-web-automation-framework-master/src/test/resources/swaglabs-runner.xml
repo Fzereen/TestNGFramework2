@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="amazon smoke amazon">
+    <parameter name="url" value="https://www.saucedemo.com/"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="os" value="windows"></parameter>
+
+
+    <test name="Login Page">
+        <classes>
+            <class name="SwagLabs.LoginPage"></class>
+        </classes>
+    </test>
+
+
+    <test name="Menu Bar">
+        <classes>
+            <class name="SwagLabs.MenuBar"></class>
+        </classes>
+    </test>
+
+
+
+    <test name="Cart">
+        <classes>
+            <class name="SwagLabs.Cart"></class>
+        </classes>
+    </test>
+
+
+<!--    <test name="Menu Bar">-->
+<!--        <classes>-->
+<!--            <class name="SwagLabs.MenuBar"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+
+<!--    <test name="Menu Bar">-->
+<!--        <classes>-->
+<!--            <class name="SwagLabs.MenuBar"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+
+<!--    <test name="Menu Bar">-->
+<!--        <classes>-->
+<!--            <class name="SwagLabs.MenuBar"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+
+<!--    <test name="Menu Bar">-->
+<!--        <classes>-->
+<!--            <class name="SwagLabs.MenuBar"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+
+
+<!--    <test name="Menu Bar">-->
+<!--        <classes>-->
+<!--            <class name="SwagLabs.MenuBar"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+
+<!--    <test name="Menu Bar">-->
+<!--        <classes>-->
+<!--            <class name="SwagLabs.MenuBar"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+
+<!--    <test name="Menu Bar">-->
+<!--        <classes>-->
+<!--            <class name="SwagLabs.MenuBar"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+
+<!--    <test name="Menu Bar">-->
+<!--        <classes>-->
+<!--            <class name="SwagLabs.MenuBar"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+
+
+
+
+
+
+
+
+</suite>
